@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.530506">
+<testcase classname="" name="_2" time="19.530506">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.Adactin.user_has_to_visible_the_order_id(Adactin.java:125)&#13;&#10;&#9;at ✽.User has to visible the order id(src/test/resources/Adactin/adactin.feature:25)&#13;&#10;"><![CDATA[Given User has to launch the browser and hit the url........................passed
+When User has to enter the username and password and click login button.....passed
+And User has to select the location.........................................passed
+And User has to select the hotel............................................passed
+And User has to select the room type........................................passed
+And User has to select number of rooms......................................passed
+And User has to select adults per room......................................passed
+And User has to select children per room....................................passed
+And User has to click search button.........................................passed
+And User has to click select radio button...................................passed
+And User has to click on continue button....................................passed
+And User has to enter the firstname and lastname............................passed
+And User has to enter the billing address...................................passed
+And User has to enter the credit card numbber...............................passed
+And User has to select the credit card type.................................passed
+And User has to select the expirymonth and expiryyear.......................passed
+And User has to enter the cvv number........................................passed
+And User has to click the book now button...................................passed
+And User has to visible the order id........................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.Adactin.user_has_to_visible_the_order_id(Adactin.java:125)
+	at ✽.User has to visible the order id(src/test/resources/Adactin/adactin.feature:25)
+]]></failure>
+</testcase>
+</testsuite>
